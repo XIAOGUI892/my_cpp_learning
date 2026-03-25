@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-
 template<typename T>
 class Box1{
 private:
     T value;
+    int num;
 public:
     Box1(const T &v):value(v){}
     template<typename X, typename Y>
