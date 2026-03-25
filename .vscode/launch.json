@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++: 调试/运行当前文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${env:TEMP}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${env:TEMP}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\mingw64\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: g++.exe 生成活动文件"
+        }
+    ]
+}
